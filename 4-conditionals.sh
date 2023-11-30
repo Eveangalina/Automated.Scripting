@@ -30,3 +30,4 @@ while true; do
   done
   echo
 done
+# Resources Chat GPT
