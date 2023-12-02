@@ -32,3 +32,5 @@ log_files=(
 for file in "${log_files[@]}"; do
     clear_compress_logs "$file"
 done
+
+# References Chat GPT
