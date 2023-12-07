@@ -5,7 +5,7 @@
 # Date of latest revision:      12/06/2023
 # Purpose:                      Ensures consistency and adherence to the Python naming conventions. 
 # Execution:                    6-python.py
-# Resource:                     
+# Resource:                     https://chat.openai.com/share/ce02362c-b0ed-4958-b719-def45cb5e2db
 
 
 # Import the 'os' module
