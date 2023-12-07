@@ -57,3 +57,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+# resources [ChatGPT] (https://chat.openai.com/share/178aef5b-2050-4453-8336-5b4a79912950)
