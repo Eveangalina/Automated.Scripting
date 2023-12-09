@@ -29,3 +29,4 @@ def create_and_manipulate_file():
 # Execute the main function
 if __name__ == "__main__":
     create_and_manipulate_file()
+# resources  [ChatGPT] (https://chat.openai.com/share/52d44b2d-fa4a-4911-8644-4cbe29dc024e)
