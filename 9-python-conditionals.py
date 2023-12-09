@@ -46,3 +46,4 @@ elif c > 10:
     print("c is greater than 10")
 else:
     print("c is equal to 10")
+# Resources [ChatGPT] (https://chat.openai.com/share/313c3bd2-6fa2-4583-89e3-fd4345c8345e)
