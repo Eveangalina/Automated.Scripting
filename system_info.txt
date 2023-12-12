@@ -1,0 +1,9 @@
+User time: 2723.35
+Kernel time: 5694.18
+Idle time: 92506.16
+Priority user time: 356.99
+I/O wait time: 438.72
+Hardware interrupt time: 0.0
+Software interrupt time: 63.61
+Virtualized OS time: 0.0
+Virtual CPU time: 0.0
