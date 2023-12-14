@@ -6,3 +6,5 @@ New-ADGroup -Name "TPSReporters" -GroupScope Global -Path "OU=Groups,DC=YourDoma
 
 # Creating a new OU in AD
 New-ADOrganizationalUnit -Name "TPSDepartment" -Path "DC=YourDomain,DC=com" -Description "Organizational Unit for TPS Department"
+
+# Resources [ChatGPT] (https://chat.openai.com/share/2bb01eda-d83c-4237-b391-4a70422379b8)
