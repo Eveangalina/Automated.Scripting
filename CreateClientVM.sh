@@ -1,6 +1,6 @@
 #!/bin/bash
 # Script:                       Create Client VM (Ubuntu-Compatible)
-# Author:                       Eveangalina Campos
+# Author:                       Eveangalina Campos (9:15AM 5-13-25)
 # Date of latest revision:      05/2025
 # Purpose:                      CloudReadyUserProvisioning w/ Hybrid Join
 # Note:                         ISO is stored in ~/Desktop/Sandbox-MSSA on both Mac and Ubuntu
