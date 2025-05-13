@@ -1,6 +1,6 @@
 #!/bin/bash
 # Script: CreateRemoteMgmtVM.sh
-# Author: Eveangalina Campos
+# Author: Eveangalina Campos ✅ Working VM Created, finalized and saved
 # Purpose: Provision a Remote Management Windows 10 VM in VirtualBox on Ubuntu
 # Target Config: Windows 10 Education (22H2), 2 CPUs, 4 GB RAM, 40 GB SSD, NAT DHCP
 
