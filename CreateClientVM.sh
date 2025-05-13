@@ -21,8 +21,8 @@ VBoxManage storagectl "Client01" --name "SATA Controller" --add sata --controlle
 # Attach the hard disk
 VBoxManage storageattach "Client01" --storagectl "SATA Controller" --port 0 --device 0 --type hdd --medium "$HOME/VirtualBox VMs/Client01/Client01.vdi"
 
-# Attach the Windows 10 Education ISO
-VBoxManage storageattach "Client01" --storagectl "SATA Controller" --port 1 --device 0 --type dvddrive --medium "/Users/eveangalinacampos/Desktop/Sandbox_MSSA/Windows10Education.iso"
+# Attach the Windows 10 Education ISO from Ubuntu Desktop
+VBoxManage storageattach "Client01" --storagectl "SATA Controller" --port 1 --device 0 --type dvddrive --medium "/home/eve/Desktop/Sandbox-MSSA/windows_10_consumer_edition_x64.iso"
 
 # Start the VM
 VBoxManage startvm "Client01"
