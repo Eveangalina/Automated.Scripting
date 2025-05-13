@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script:                       Create Client VM
+# Script:                       Create Client VM - compatible w Ubuntu OS
 # Author:                       Eveangalina Campos
 # Date of latest revision:      05/2025
 # Purpose:                      CloudReadyUserProvisioning w Hybrid Join
