@@ -12,7 +12,7 @@ VM_FOLDER="$HOME/VirtualBox VMs/$VM_NAME"
 VDI_PATH="$VM_FOLDER/$VM_NAME.vdi"
 
 # Create the VM
-VBoxManage createvm --name "$VM_NAME" --ostype "$VM_TYPE" --register
+VBoxManage createvm --name "$VM_NAME" --ostype "$VM_TYPE" --basefolder "$HOME/VirtualBox VMs" --register
 
 # Set memory, CPU, and networking
 VBoxManage modifyvm "$VM_NAME" --memory 4096 --cpus 2 --nic1 nat
