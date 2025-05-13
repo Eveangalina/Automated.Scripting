@@ -12,7 +12,11 @@ VM_FOLDER="$HOME/VirtualBox VMs/$VM_NAME"
 VDI_PATH="$VM_FOLDER/$VM_NAME.vdi"
 
 # Create the VM
+<<<<<<< HEAD
 VBoxManage createvm --name "$VM_NAME" --ostype "$VM_TYPE" --register
+=======
+VBoxManage createvm --name "Client01" --ostype "Windows10_64" --basefolder "$HOME/VirtualBox VMs" --register
+>>>>>>> 12bfe7b (Fix and finalize CreateClientVM.sh for Windows 10 provisioning)
 
 # Set memory, CPU, and networking
 VBoxManage modifyvm "$VM_NAME" --memory 8192 --cpus 2 --nic1 nat
@@ -28,10 +32,15 @@ VBoxManage storageattach "$VM_NAME" \
   --storagectl "SATA Controller" \
   --port 0 --device 0 --type hdd --medium "$VDI_PATH"
 
+<<<<<<< HEAD
 # Attach the ISO
 VBoxManage storageattach "$VM_NAME" \
   --storagectl "SATA Controller" \
   --port 1 --device 0 --type dvddrive --medium "$VM_ISO"
+=======
+# Attach the Windows 10 Education ISO
+VBoxManage storageattach "Client01" --storagectl "SATA Controller" --port 1 --device 0 --type dvddrive --medium "/home/eve/Desktop/Sandbox-MSSA/windows_10_consumer_editions_version_22h2_x64.iso"
+>>>>>>> 12bfe7b (Fix and finalize CreateClientVM.sh for Windows 10 provisioning)
 
 # Start the VM
 VBoxManage startvm "$VM_NAME"
